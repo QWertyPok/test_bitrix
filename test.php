@@ -65,8 +65,7 @@ if ($lines) {
 			$bs->Add($arFields);  
 			$f++; 
 		 } 
-	}while($PRODUCT_ID[$f]){                         // удаляем лишние элементы 
-
+	}while($PRODUCT_ID[$f]){                         // удаляем лишние элементы  
  \CIBlockElement::Delete($PRODUCT_ID[$f]); 
 		$f++; 
 } 
